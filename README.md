@@ -1,4 +1,4 @@
-# Eat-Da-Burger# Burger
+# Burger
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
