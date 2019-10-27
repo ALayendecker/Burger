@@ -1,0 +1,13 @@
+* {
+  font-family: "Fontdiner Swanky", cursive;
+}
+
+body {
+  text-align: center;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
