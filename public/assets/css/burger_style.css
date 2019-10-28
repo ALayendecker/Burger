@@ -3,10 +3,9 @@
 }
 
 body {
-  background-image: url("../img/Diner-bg.jpg");
+  background-image: url("./img/Diner-bg.jpg");
   background-size: initial;
   background-color: aquamarine;
-  text-align: center;
   text-align: center;
 }
 ul {
