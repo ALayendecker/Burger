@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("./img/Diner-bg.jpg");
+  background-image: url("../img/Diner-bg.jpg");
   background-size: initial;
   background-color: aquamarine;
   text-align: center;
@@ -19,4 +19,5 @@ li {
   background-color: whitesmoke;
   opacity: 0.9;
   max-width: 60%;
+  margin: 0 auto;
 }
