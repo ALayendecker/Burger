@@ -59,9 +59,7 @@ When trying to connect remotely to your Heroku database on an open network such 
      * **id**: an auto incrementing int that serves as the primary key.
      * **burger_name**: a string. -->
 
-     * **devoured**: a boolean.
-
-3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
+<!-- 3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
 
 4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
 
@@ -75,11 +73,11 @@ When trying to connect remotely to your Heroku database on an open network such 
 
    - Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
-   - Close out of the MySQL command line tool: `exit`.
+   - Close out of the MySQL command line tool: `exit`. -->
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+<!-- 1. Inside your `burger` directory, create a folder named `config`.
 
 2. Create a `connection.js` file inside `config` directory.
 
@@ -97,11 +95,11 @@ When trying to connect remotely to your Heroku database on an open network such 
      - `insertOne()`
      - `updateOne()`
 
-   - Export the ORM object in `module.exports`.
+   - Export the ORM object in `module.exports`. -->
 
 #### Model setup
 
-- Inside your `burger` directory, create a folder named `models`.
+<!-- - Inside your `burger` directory, create a folder named `models`.
 
   - In `models`, make a `burger.js` file.
 
@@ -109,10 +107,11 @@ When trying to connect remotely to your Heroku database on an open network such 
 
     - Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
 
-    - Export at the end of the `burger.js` file.
+    - Export at the end of the `burger.js` file. -->
 
 #### Controller setup
 
+<!--
 1. Inside your `burger` directory, create a folder named `controllers`.
 
 2. In `controllers`, create the `burgers_controller.js` file.
@@ -122,10 +121,11 @@ When trying to connect remotely to your Heroku database on an open network such 
    - Express
    - `burger.js`
 
-4. Create the `router` for the app, and export the `router` at the end of your file.
+4. Create the `router` for the app, and export the `router` at the end of your file. -->
 
 #### View setup
 
+<!--
 1. Inside your `burger` directory, create a folder named `views`.
 
    - Create the `index.handlebars` file inside `views` directory.
@@ -138,11 +138,11 @@ When trying to connect remotely to your Heroku database on an open network such 
 
      - Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
-     - Create a button in `index.handlebars` that will submit the user input into the database.
+     - Create a button in `index.handlebars` that will submit the user input into the database. -->
 
 #### Directory structure
 
-All the recommended files and directories from the steps above should look like the following structure:
+<!-- All the recommended files and directories from the steps above should look like the following structure:
 
 ```
 .
@@ -178,7 +178,7 @@ All the recommended files and directories from the steps above should look like 
     ├── index.handlebars
     └── layouts
         └── main.handlebars
-```
+``` -->
 
 ### Reminder: Submission on BCS
 
