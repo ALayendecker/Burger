@@ -9,8 +9,8 @@ VALUES
 INSERT INTO burgers
     (name, devoured)
 VALUES
-    ('Bacon Cheeseburger', true);
+    ('Bacon Cheeseburger');
 INSERT INTO burgers
     (name, devoured)
 VALUES
-    ('Avacado Cheeseburger', true);
+    ('Avacado Cheeseburger');

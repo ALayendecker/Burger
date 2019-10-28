@@ -1,9 +1,3 @@
-DROP DATABASE IF EXISTS burgers_db;
-
-CREATE DATABASE burgers_db;
-
-USE burgers_db;
-
 CREATE TABLE burgers
 (
     id INT NOT NULL
@@ -11,6 +5,7 @@ CREATE TABLE burgers
     name VARCHAR
     (40) NOT NULL,
     devoured BOOLEAN DEFAULT false, 
+    createdAt TIMESTAMP NULL,
     PRIMARY KEY
     (id)
 )
