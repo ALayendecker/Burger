@@ -14,3 +14,8 @@ ul {
 li {
   list-style: none;
 }
+
+.op-cont {
+  background-color: whitesmoke;
+  opacity: 0.9;
+}

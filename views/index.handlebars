@@ -1,36 +1,38 @@
-<h1>Burger Time!</h1>
+<div class="op-cont">
+    <h1>Burger Time!</h1>
 
-<h2>Burgers to eat!</h2>
+    <h2>Burgers to eat!</h2>
 
-<ul>
-    {{#each burgers}}
-    {{#unless devoured}}
-    {{> burgers/burger-block devour=true}}
-    {{/unless}}
-    {{/each}}
-</ul>
+    <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devour=true}}
+        {{/unless}}
+        {{/each}}
+    </ul>
 
-<h2>Burgers you ate!</h2>
+    <h2>Burgers you ate!</h2>
 
-<ul>
-    {{#each burgers}}
-    {{#if devoured}}
-    {{> burgers/burger-block devour=false}}
-    {{/if}}
-    {{/each}}
-</ul>
+    <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devour=false}}
+        {{/if}}
+        {{/each}}
+    </ul>
 
-<h2>Add a burger</h2>
-<form class="create-form">
+    <h2>Add a burger</h2>
+    <form class="create-form">
 
-    <div class="form-group">
-        <label for="ca">Type Burger Name Here!</label>
-        <input type="text" id="ca" name="name">
-    </div>
+        <div class="form-group">
+            <label for="ca">Type Burger Name Here!</label>
+            <input type="text" id="ca" name="name">
+        </div>
 
-    <div class="form-group">
-        <input type="radio" name="devoured" value="0" checked> Buy it.
-    </div>
+        <div class="form-group">
+            <input type="radio" name="devoured" value="0" checked> Buy it.
+        </div>
 
-    <button type="submit">Touch this</button>
-</form>
+        <button type="submit">Touch this</button>
+    </form>
+</div>
