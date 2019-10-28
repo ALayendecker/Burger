@@ -18,4 +18,5 @@ li {
 .op-cont {
   background-color: whitesmoke;
   opacity: 0.9;
+  max-width: 60%;
 }
