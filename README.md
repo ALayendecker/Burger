@@ -42,13 +42,14 @@ This app is meant to simulate a simplified purchasing window and a product manag
 - [Node Package - Express-Handlebars](https://www.npmjs.com/package/express-handlebars)
 - [Node Package - DotEnv](https://www.npmjs.com/package/dotenv)
 - [Node Package - mysql](https://www.npmjs.com/package/mysql)
+- [Deoployed w/ Heroku](https://dry-journey-76838.herokuapp.com)
 - [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 <!-- Organization -->
 
 ## Organization
 
-Requires are located at the top of the BurgerCustomer.js and BurgerManager.js files along with global variables.
+This app uses ORM methods CRU (no D) to update a `jawsDB` `Heroku` deployed database to create, read, and update. By creating burger types reading what is on the database and updating their status' (eaten or un eaten).
 
 <!-- GETTING STARTED -->
 
@@ -58,31 +59,35 @@ Follow the instructions below then navigate to [Usage](#usage) & [Commands](#com
 
 ### Installation
 
+No Installation is required but if you wish to test it out for yourself do the following.
+
 1. Clone the repo
 
 ```sh
 git clone https:://github.com/Alayendecker/Burger.git
 ```
 
-2. Install NPM packages
+2. Install NPM packages.
 
 ```sh
 npm install
 ```
 
-3. Create an `.env` to hide your own mysql-database-root-password/mysql-database-config you will need to run this app.
+3. Create a Heroku deployment
 
-```sh
-# MysqlKeys
+4. Set up a `jawsDb` addon linked to your `Heroku` deployment.
 
-MYSQLKEYS=YourPassHere
-```
+5. Use the link provided by `Heroku` to view your deployment.
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
+You can eat a burger by clicking the button next to the name
+
 ### Commands
+
+None required.
 
 <!-- CONTACT -->
 
